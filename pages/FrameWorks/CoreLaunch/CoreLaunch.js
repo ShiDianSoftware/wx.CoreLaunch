@@ -2,7 +2,7 @@
 function CoreLaunch(){}
 
 //时间间隔
-CoreLaunch.Duration = 100
+CoreLaunch.Duration = 60 * 60 * 24
 
 CoreLaunch.anim_creator = wx.createAnimation({
 
@@ -40,7 +40,7 @@ CoreLaunch.showInVC = function (vc,url) {
 CoreLaunch.showZoomBigAnimInVC = function(vc){
 
 
-  this.anim_creator.scale(2, 2).opacity(0).step()
+  this.anim_creator.scale(1.5, 1.5).opacity(0).step()
   let anim_obj = this.anim_creator.export()
   vc.setData({CoreLaunch_Anim: anim_obj, show: true })
 }
