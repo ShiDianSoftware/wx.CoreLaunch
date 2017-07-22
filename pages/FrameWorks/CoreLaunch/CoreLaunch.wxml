@@ -1,0 +1,4 @@
+<!--CoreLaunch.wxml-->
+<view class="CoreLaunch {{show ? 'CoreLaunch_Show' : 'CoreLaunch_Dismiss'}} {{none ? 'CoreLaunch_None' : 'CoreLaunch_Block'}}" animation="{{CoreLaunch_Anim}}">
+  <image mode="aspectFill" src="{{CoreLaunchImgUrl}}"></image>
+</view>

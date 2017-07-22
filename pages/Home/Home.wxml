@@ -1,0 +1,6 @@
+<!--Home.wxml-->
+<include src="/pages/FrameWorks/CoreLaunch/CoreLaunch.wxml" />
+
+<text>Home.wxml</text>
+
+<button bindtap="btnClick">这是按钮</button>

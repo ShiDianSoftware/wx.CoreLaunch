@@ -1,0 +1,7 @@
+/* CoreLaunch.wxss */
+.CoreLaunch{position: fixed; top: 0;left: 0; bottom: 0; right: 0; display: flex; flex-direction: column; background: white; }
+.CoreLaunch image {width: 100%; height: 100%;}
+.CoreLaunch_Dismiss {z-index: 0;}
+.CoreLaunch_Show {z-index: 1000;}
+.CoreLaunch_Block {display: block;}
+.CoreLaunch_None {display: none;}
